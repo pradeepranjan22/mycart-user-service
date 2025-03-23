@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.secor</groupId>
-    <artifactId>eatnow-user-service</artifactId>
+    <artifactId>mycart-user-service</artifactId>
     <version>prod-1</version>
-    <name>eatnow-user-service</name>
-    <description>eatnow-user-service</description>
+    <name>mycart-user-service</name>
+    <description>mycart-user-service</description>
     <url/>
     <licenses>
         <license/>
@@ -44,10 +44,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
+      <!--  <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
